@@ -1,0 +1,54 @@
+
+@import "tailwindcss";
+
+
+.bg-animated-gradient {
+  background: linear-gradient(90deg, #a4baf5, #E3E3E3, #f5a2a1);
+  background-size: 300% 300%;
+  animation: gradient 5s alternate infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes waveBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow-bounce {
+  animation: waveBounce 1.2s ease-in-out infinite;
+}
+
+.arrow-1 { animation-delay: 0s; }
+.arrow-2 { animation-delay: 0.2s; }
+.arrow-3 { animation-delay: 0.4s; }
+
+@font-face {
+  font-family: "CreatoDisplay-Thin";
+  src: url(CreatoDisplay-Thin.otf);
+}
+
