@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet">
@@ -14,44 +15,43 @@
 
   <nav class="flex items-center justify-between px-6 py-4 mt-6 text-gray-800 bg-transparent" >
 
-    <!-- Left side of navbar!!!1 :33333 -->
-    <div class = "flex items-center gap-4 pl-20">
-      <a href="./index.html" class="w-8 h-8 flex items-center justify-center  transition-all duration-300 hover:scale-110 ml-3">
-        <img src = "home.png" alt = "Home"/>
-      </a>
+        <!-- Left side of navbar!!! This is where you can navigate between different pages! :33333 -->
+        <div class="flex items-center gap-1  md:gap-4 pl-0 md:pl-20">
+              <a href="./index.html" class="w-8 h-8 flex items-center justify-center transition-all duration-300 hover:scale-110 ml-0 md:ml-3">
+                <img src="home.png" alt="Home"/>
+              </a>
 
-      <a href="./about.html" class="w-8 h-8 flex items-center justify-center  transition-all duration-300 hover:scale-110 ml-3">
-        <img src = "user.png" alt = "About Me"/>
-      </a>
-    </div>
+              <a href="./about.html" class="w-8 h-8 flex items-center justify-center transition-all duration-300 hover:scale-110 ml-3">
+                <img src="user.png" alt="About Me"/>
+              </a>
+        </div>
 
 
-    <!-- Right side of the Navbar -->
-    <div class="flex items-center gap-6 text-xl max-sm:text-2xl pr-10 font-satoshi">
-      <a href="https://www.linkedin.com/in/mariem-touati-297894216/" target="_blank" class="flex items-center gap-1 hover:underline hover:-translate-y-1 transition-transform duration-300 ease-in-out">
-        <b>LinkedIn</b>
-        <img src="../top-right.png" alt="Arrow" class="w-5 h-5 ml-1" />
-      </a>
 
-      <a href="../marms_resume (8).pdf" target="_blank" class="flex items-center gap-1 hover:underline hover:-translate-y-1 transition-transform duration-300 ease-in-out">
-        <b>Resume</b>
-        <img src="../top-right.png" alt="Arrow" class="w-5 h-5 ml-1" />
-      </a>
-    </div>
+        <!-- Right side of the Navbar, where my LinkedIn and Resume are linked! -->
+        <div class="flex items-center gap-6 text-base sm:text-xl pr-10 font-satoshi ml-20 md:ml-0">
+              <a href="https://www.linkedin.com/in/mariem-touati-297894216/" target="_blank" class="flex items-center gap-1 hover:underline hover:-translate-y-1 transition-transform duration-300 ease-in-out">
+                <b>LinkedIn</b>
+                <img src="top-right.png" alt="Arrow" class="w-5 h-5 ml-1" />
+              </a>
+
+              <a href="../marms_resume (8).pdf" target="_blank" class="flex items-center gap-1 hover:underline hover:-translate-y-1 transition-transform duration-300 ease-in-out">
+                <b>Resume</b>
+                <img src="top-right.png" alt="Arrow" class="w-5 h-5 ml-1"/>
+              </a>
+        </div>
  
   </nav>
 
-  <section style = "font-family: 'Satoshi', sans-serif;" class="font-mono p-10">
+  <section style = "font-family: 'Satoshi', sans-serif;" class="p-10">
     <div class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row gap-10 items-start">
-
-
       
     
 
-      <div class="flex-1">
+      <div class="flex-1 text-center md:text-left">
         <h2 class="text-4xl font-bold mb-4 font-[CreatoDisplay-Thin]"><u>ABOUT ME!</u></h2>
         
-        <p class="leading-relaxed mb-4">
+        <p class="leading-relaxed mb-4 ">
           I'm a third-year <b>Computer Science Major</b>, with a minor in <b>Digital Media</b> and a <b>TEFL certificate</b>. I currently attend the <b>University of Central Florida</b>, located in the sunny Orlando metropolitan!
           I am always eager and passionate about learning, whether it be a new programming language, or how I can combine creativity with techinicality. Lately, I have been reading a bit more about accessibility, being informed by my more experienced peers how that plays a <i>big part</i> in web development.
           Hoping to someday be able to make projects that are fun and acessible to all, my journey for knowledge continues.
@@ -81,7 +81,7 @@
       </div>
 
       <!--This is where I would put a headshot if I had one. But I don't have one right now, so a blank area like this will have to do.-->
-      <div class="w-[340px] h-[440px] bg-blend-soft-light shadow-xl rounded-xl flex items-center justify-center text-black font-bold text-xl">
+      <div class="w-[340px] h-[440px] bg-blend-soft-light shadow-xl rounded-xl flex items-center justify-center text-black font-bold text-xl mx-auto md:mx-0">
         Headshot <br> (Coming soon)
       </div>
     </div>
