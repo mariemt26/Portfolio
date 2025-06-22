@@ -1,3 +1,5 @@
+
+
 var typed = new Typed(".auto-type", {
           strings: ["programmer!", "developer!", "writer!", "artist!"],
           typeSpeed: 250,
